@@ -19,6 +19,14 @@ from requests_toolbelt import MultipartEncoder
 
 """ built-in functions
 """
+
+
+def eval_add(a, b):
+    return a+b
+
+def eval_sub(a, b):
+    return a-b
+
 def gen_random_string(str_len):
     """ generate random string with specified length
     """
